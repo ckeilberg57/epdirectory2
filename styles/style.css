@@ -13,7 +13,7 @@ h2{
     color: #FFFFFF;
 }
 th{
-    color: rgb(56, 56, 56);
+    color: #FFFFFF;
     border: 1px solid rgb(190,190,190);
     padding: 10px 60px;
 }
@@ -22,7 +22,7 @@ td{
     padding: 0px 5px;
 }
 thead{
-    background-color: cadetblue;
+    background-color: #0ebec7;
     line-height: 20px;
 }
 tbody{
