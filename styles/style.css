@@ -43,9 +43,10 @@ footer p{
 }
 #new-contact, #contact-display {
     padding: 20px;
+    color: #FFFFFF;
 }
 #new-contact {
-    background: #ddd;
+    background: #0ebec7;
 }
 div {
     margin-bottom: 10px;
