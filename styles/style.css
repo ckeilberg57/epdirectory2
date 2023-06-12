@@ -8,6 +8,9 @@ body{
 h1{
     margin: 0;
 }
+h12{
+    color: #FFFFFF;
+}
 th{
     color: rgb(56, 56, 56);
     border: 1px solid rgb(190,190,190);
