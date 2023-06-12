@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Address Book</title>
+    <title>Endpoint Directory</title>
 </head>
 <body>
     <header>
@@ -13,15 +13,15 @@
     </header>
     <main>
         <section id="contact-display">
-            <h2 class="contacts">Contacts</h2>
+            <h2 class="contacts">Room</h2>
             <table>
                 <tr id="head">
                     <thead>
-                        <th>Name</th>
-                        <th>Address</th>
-                        <th>Telephone</th>
-                        <th>Email</th>
-                        <th>Website</th>
+                        <th>Room</th>
+                        <th>Department</th>
+                        <th>Facility</th>
+                        <th>Support Contact</th>
+                        <th>Connect to Room</th>
                     </thead>
                 </tr>
                 <tbody id="data">
@@ -30,36 +30,36 @@
             </table>
         </section>
         <section id="new-contact">
-            <h2>Create a new contact</h2>
+            <h2>Add a new room</h2>
             <form>
                 <div>
-                    <label for="name">Name:</label>
+                    <label for="name">Room:</label>
                     <input id="name" type="text"  maxlength="15" required>
                 </div>
                 <div>
-                    <label for="add">Address:</label>
+                    <label for="add">Department:</label>
                     <input id="add" type="text" maxlength="30" required>
                 </div>
                 <div>
-                    <label for="tel">Telephone:</label>
+                    <label for="tel">Facility:</label>
                     <input id="tel" type="tel" maxlength="15" required>
                 </div>
                 <div>
-                    <label for="email">Email:</label>
+                    <label for="email">Support Contact:</label>
                     <input id="email" type="email" maxlength="30" required>
                 </div>
                 <div>
-                    <label for="url">Website:</label>
+                    <label for="url">Connect to Room:</label>
                     <input id="url" type="url" maxlength="20">
                 </div>
                 <div>
-                    <button>Create contacts</button>
+                    <button>Create Room</button>
                 </div>
             </form>
         </section>
     </main>
     <footer>
-        <p>Developed by {'use your name'}}</p>
+        <p>For Demo Use ONLY!!</p>
     </footer>
     <script src="./scripts/phonebook.js"></script>
 </body>
