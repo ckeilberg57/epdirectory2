@@ -47,7 +47,7 @@ window.onload = () => {
             addInput.value = '';
             telInput.value = '';
             emailInput.value = '';
-            urlInput.value = 'https://google.com';
+            urlInput.value = '';
         };
 
         transaction.oncomplete = () => {
