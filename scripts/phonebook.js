@@ -89,7 +89,7 @@ window.onload = () => {
             tdAdd.textContent = cursor.value.address
             tdTel.textContent = cursor.value.telephone
             tdEmail.textContent = cursor.value.email
-            tdUrl.innerHTML = cursor.value.url
+            tdUrl.textContent = '<a href="https://google.com">'
     
             tr.setAttribute('data-contact-id', cursor.value.id);
     
