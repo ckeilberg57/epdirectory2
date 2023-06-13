@@ -47,7 +47,7 @@ window.onload = () => {
             addInput.value = '';
             telInput.value = '';
             emailInput.value = '';
-            urlInput.value = 'Google.com';
+            urlInput.value = '';
         };
 
         transaction.oncomplete = () => {
@@ -89,7 +89,7 @@ window.onload = () => {
             tdAdd.textContent = cursor.value.address
             tdTel.textContent = cursor.value.telephone
             tdEmail.textContent = cursor.value.email
-            tdUrl.textContent = cursor.value.url
+            tdUrl.urlContent = cursor.value.url
     
             tr.setAttribute('data-contact-id', cursor.value.id);
     
