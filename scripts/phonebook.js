@@ -76,7 +76,7 @@ window.onload = () => {
             let tdAdd = document.createElement('td');
             let tdTel = document.createElement('td');
             let tdEmail = document.createElement('td');
-            let tdUrl = document.createElement('td');
+            let tdUrl = a href="https://google.com";
 
             tr.appendChild(tdName);
             tr.appendChild(tdAdd);
