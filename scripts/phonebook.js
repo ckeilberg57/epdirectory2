@@ -89,8 +89,9 @@ window.onload = () => {
             tdAdd.textContent = cursor.value.address
             tdTel.textContent = cursor.value.telephone
             tdEmail.textContent = cursor.value.email
-            tdUrl.innerHTML = "<a href='" + cursor.value.url + "' target='blank' />" + cursor.value.url +" </a>"
-    
+            //tdUrl.innerHTML = "<a href='" + cursor.value.url + "' target='blank' />" + cursor.value.url +" </a>"
+            tdUrl.innerHTML = <a href= + cursor.value.url + target="_blank"> Connect To Room </a>"
+              
             tr.setAttribute('data-contact-id', cursor.value.id);
     
             let deleteBtn = document.createElement('button');
