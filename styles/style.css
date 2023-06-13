@@ -60,3 +60,14 @@ display: inline-block;
 width: 90px;
 text-align: right;
 }
+a {
+  color: #a66cff;
+}
+a:visited {
+  color: #f9d923;
+}
+a:hover {
+  color: #3ec70b;
+}
+a:active {
+  color: coral;
